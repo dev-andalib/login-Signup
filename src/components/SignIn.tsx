@@ -81,12 +81,12 @@ const SignIn = () => {
             <FormLabel textAlign={"center"} color={"#c2c1c2"}>
               or use your email and pass word{" "}
             </FormLabel>
-            <Input type="email" placeholder="EMAIL ADDRESS" />
-            <FormLabel textAlign={"center"} color={"#c2c1c2"}>
+            <Input type="email" placeholder="EMAIL ADDRESS" backgroundColor={'#eeedef'}/>
+            <FormLabel textAlign={"center"} color={"#c2c1c2"} paddingTop={'20px'}>
               {" "}
               Now type in you password
             </FormLabel>
-            <Input type="password" placeholder="PASSWORD" />
+            <Input type="password" placeholder="PASSWORD" backgroundColor={'#eeedef'}/>
             <FormLabel
               textAlign={"center"}
               color={"#c2c1c2"}
